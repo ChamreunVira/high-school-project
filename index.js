@@ -12,7 +12,7 @@ function kakronea() {
   var text2 = "Congratulation you got « C »"+" "+"score:"+[answer];
   var text3 = "Congratulation you got « D »"+" "+"score:"+[answer];
   var text4 = "Congratulation you got « E »"+" "+"score:"+[answer];
-  var text5 = "lg tae game hz rk jorb? « F »"+" "+"score:"+[answer];
+  var text5 = "កុំទាន់អស់សង្ឃឹមព្យាយាមម្ដងទៀត « F »"+" "+"score:"+[answer];
   if (answer>=427) {
     alert(text);
   }else if (answer>=380) {
