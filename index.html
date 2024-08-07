@@ -2,7 +2,7 @@
 <html lang="kh">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Calculator</title></title>
   <link rel="stylesheet" href="index.css">
@@ -13,39 +13,39 @@
      <h2><u>គណនាពិន្ទុបាក់ឌុប</u></h2>
      <div id="nav-about">
        <ul>
-         <li><a href="index.html">វិទ្យាសាស្ត្រ</a></li>
-         <li onclick="alert("Coming Soon🙏")><a href="#">សង្គម</a></li>
+         <li id="changetext2"><a>វិទ្យាសាស្ត្រ</a></li>
+         <li id="changetext"><a >សង្គម</a></li>
        </ul>
      </div> 
     </div>
     <div id="list">
        <div class="math">
-        <h3><span>គណិត</span>
+        <h3><span id="mToKh">គណិត</span>
         <br><input id="maths" type="number" maxlength="3">
        </h3>
       </div>
       <div class="math">
-        <h3><span>ភាសាខ្មែរ</span>
+        <h3><span id="khTom">ភាសាខ្មែរ</span>
         <br><input id="kh"type="number">
        </h3>
       </div>
       <div class="math">
-        <h3><span>រូប</span>
+        <h3><span id="PhyToHis">រូប</span>
           <br><input id="phy"type="number">
         </h3>
       </div>
       <div class="math">
-        <h3><span>គីមី</span>
+        <h3><span id="ChemToGeo">គីមី</span>
           <br><input id="chem"type="number">
         </h3>
       </div>
       <div class="math">
-        <h3><span>ជីវៈ</span>
+        <h3><span id="BioToRe">ជីវៈ</span>
           <br><input id="bio"type="number" maxlength="3">
         </h3>
       </div>
       <div class="math">
-        <h3><span>ប្រវត្តិ</span>
+        <h3><span id="HisToEth">ប្រវត្តិ</span>
           <br><input id="his" type="number">
         </h3>
       </div>
@@ -59,7 +59,7 @@
           <button id="submit" onclick="kakronea()">Submit</button>
       </div>
         <div id="reset1">
-          <button id="reset" type="reset">Reset</button>
+          <button type="reset">Reset</button>
             </form>
         </div>
     </div>
